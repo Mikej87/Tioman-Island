@@ -1,7 +1,7 @@
 # **Tioman-Island**
 **Tioman Island promotion webpage**
 
-This is a promotion webpage for Tioman Island and all the fantastic things you can do there. Otn this site you can view the beautiful coral reefs, hotels and see what the Island has to offer.
+This is a promotion webpage for Tioman Island and all the fantastic things you can do there. On this site you can view the beautiful coral reefs, hotels and see what the Island has to offer.
 The page has tips and guides you through the Island so you can be prepared when you visit. Along with the amazing sea life and beaches, Tioman has an amazing diverse jungle to explore. The Legend goes that Tioman 
 was created when a dragon lay down and died after loosing her partner. This is what makes Tiomans peaks and Island. In the 1600's pirates ravaged the Island for anything they could, including the local people! The 
 pirates would then sell the locals into slavery, some of the pirates stayed on the Island and many of the local inhabitants and desendents of them pirates. 
