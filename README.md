@@ -8,6 +8,8 @@ pirates would then sell the locals into slavery, some of the pirates stayed on t
 
 So step into a jungle island adventure and visit Tioman Island. Check out our contact box to get in touch with us.
 
+! [ Island Picture ] ( tioman-island.jpeg )
+
 
 ### Contents
 
@@ -51,6 +53,20 @@ So step into a jungle island adventure and visit Tioman Island. Check out our co
 
 
 ### Wireframes
+
+I used balsamiq to make the wireframes on mobile, tablet and laptop. There are some slight differences to the mobile, tablet and laptop wireframes.
+It is a one page website to enhance the logical flow. I have included relevent information and a Contact us button for further contact.
+
+
+### Design Choices
+
+The font family chosen for Tioman Island website was Lato. It is a sans-serif font with a rounded apperance and a modern feel. Lato 
+also has a clear and easy to read style, making it suitable for web design and print. 
+
+
+### Colour Scheme 
+
+The colour scheme chosen 
   
 
 
