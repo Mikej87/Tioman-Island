@@ -76,5 +76,7 @@ more visually appealing.
 ![Contrast Grid](Contrastgrid.jpeg)
 
 | CSS name | HEX    | Comment           | 
+| -------- | ------ | ----------------- |
 | Tea Green| #C5DDBB| Some text, footer |
+| -------- | ------ | ----------------- |
  
