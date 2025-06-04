@@ -8,7 +8,7 @@ pirates would then sell the locals into slavery, some of the pirates stayed on t
 
 So step into a jungle island adventure and visit Tioman Island. Check out our contact box to get in touch with us.
 
-![Island Picture](Tioman Island/tioman-island.jpeg)
+![Island Picture](tioman-island.jpeg)
 
 
 ### Contents
