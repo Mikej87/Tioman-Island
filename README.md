@@ -77,8 +77,10 @@ more visually appealing.
 
 | CSS name | HEX    | Comment           | 
 | -------- | ------ | ----------------- |
-| Tea Green| #C5DDBB| Some text, footer |
-| Lemon Chiffon | #FDF4C4 | Background Colour for the Header |
+| Tea Green| #C5DDBB| Some text, Footer |
+| Lemon Chiffon | #FDF4C4 | Background colour for the Header |
 | Cornflower Blue | #709BFF | Font colour for the Sealife section |
+| Mint Green | #D6FFFC | Background and border colour |
+| Pale Dogwood | #F6D2CB | Font colour for Header |
 
  
