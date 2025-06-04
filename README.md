@@ -74,6 +74,7 @@ I have also attached a contrast grid to show the possibility of different combin
 more visually appealing.
 
 ![Contrast Grid](Contrastgrid.jpeg)
-| CSS name | HEX | Comment |
+
+| CSS name | HEX    | Comment           | 
 | Tea Green| #C5DDBB| Some text, footer |
  
