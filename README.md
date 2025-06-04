@@ -83,4 +83,33 @@ more visually appealing.
 | Mint Green | #D6FFFC | Background and border colour |
 | Pale Dogwood | #F6D2CB | Font colour for Header |
 
+
+### Images 
+
+I have used a number of images designed to show the best of what the Island has to offer, are visually appealing and can really attract 
+people to the Island. I have ised a varerity of images highlighting the vast activities on the Island.
+
+### Responsiveness 
+
+My website is responsive on different layouts and can adapt to different viewports. This allows the website to be viewed as intened 
+by the user on different devices and screen sizes. 
+
+### Layout 
+
+The layout is simple and easy to navigate through. Users can easily see the different sections and find the relevent information on the images.
+I have chosen alot of images to highlight how visually stunning the Island is and added some information alongside.
+
+# Existing Features 
+
+## Header 
+
+The website Header can fit all device sizes and it contains an image and text. The button is to take you to the contact us section.
+
+### Contact Us button
+
+When clicked on it will take the user to our contact us page where you can inquire about how to book and visit the Island.
+You can leave your information and we will get back to you with a relevent responce.
+
+
+
  
