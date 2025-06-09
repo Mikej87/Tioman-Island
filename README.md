@@ -132,12 +132,8 @@ It also contains home icon which brings you back to the homepage.
 
 [HTML](https://developer.mozilla.org/en-US/docs/Glossary/HTML5) 
 
-The term HTML5 is a buzzword that refers to a set of modern web technologies. This includes the HTML living standard, along with JavaScript APIs
-to enhance storage, multimedia, and hardware access. 
-You may sometimes hear about "new HTML5 elements", or find HTML5 described as a new version of HTML. HTML5 was the successor to previous HTML versions and introduced new elements and capabilities to the language on top of the previous version, HTML 4.01, as well as improving or removing some existing functionality.
-However, as a Living Standard HTML now has no version. The up-to-date specification can be found at html.spec.whatwg.org 
 
-### CSS
+[CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 Cascading style sheets or CSS is a stylesheet language used to describe the presentation of a document written in HTML or XML ( including XML dialects such as 
 SVG, MathML or XHTML). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.
