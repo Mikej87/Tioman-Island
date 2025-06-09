@@ -110,6 +110,50 @@ The website Header can fit all device sizes and it contains an image and text. T
 When clicked on it will take the user to our contact us page where you can inquire about how to book and visit the Island.
 You can leave your information and we will get back to you with a relevent responce.
 
+### Landing View 
+
+The website is built on one page to get the best performance. The page consists of images and imformation reguarding the 
+Island itself and all the activities available on the Island. The different sections of the website are designed to use 
+visual enhancements along side the relevent information, so the user can easily find the correct information with ease.
+For consistency the home screen is the same across all devices.
+
+### Footer 
+
+To continue the tropical theme, the footer is very simple and designed with an Island perspective with icons at the bottom that take you to the relevent links.
+
+### 404 page
+
+In a scenario where the link has maybe broken, 404 page has a built in 5 second auto refresh function which returns to the homepage.
+It also contains home icon which brings you back to the homepage.
+
+# Technologies Used 
+
+## Languages 
+
+[ HTML ] (https://developer.mozilla.org/en-US/docs/Glossary/HTML5) 
+
+The term HTML5 is a buzzword that refers to a set of modern web technologies. This includes the HTML living standard, along with JavaScript APIs
+to enhance storage, multimedia, and hardware access. 
+You may sometimes hear about "new HTML5 elements", or find HTML5 described as a new version of HTML. HTML5 was the successor to previous HTML versions and introduced new elements and capabilities to the language on top of the previous version, HTML 4.01, as well as improving or removing some existing functionality.
+However, as a Living Standard HTML now has no version. The up-to-date specification can be found at html.spec.whatwg.org 
+
+### CSS
+
+Cascading style sheets or CSS is a stylesheet language used to describe the presentation of a document written in HTML or XML ( including XML dialects such as 
+SVG, MathML or XHTML). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.
+
+CSS is among the core languages of the open web and is standardized across Web browsers according to W3C specifications. Previously, the development of various parts of CSS specification was done synchronously, which allowed the versoning of the latest recommendations. You might have heard about CSS1, CSS2.1, or even CSS3. There will never be a CSS3 or a CSS4; rather, everything is now just "CSS" with individual CSS modules having version numbers.
+
+After CSS 2.1, the scope of the specification increased significantly and the progress on different CSS modules started to differ so much, that it became more effective to develop and release recommendations separately per module. Instead of versioning the CSS specification, W3C noow periodically takes a snapshot of the latest stable state of the CSS specification and the individual modules progress. CSS modules now have version numbers, or levels, such as CSS Color Module Level 5.
+
+
+# Libraries & Framework
+
+Coolors 
+
+
+
+
 
 
  
