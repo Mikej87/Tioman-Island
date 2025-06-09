@@ -130,7 +130,7 @@ It also contains home icon which brings you back to the homepage.
 
 ## Languages 
 
-[ HTML ] (https://developer.mozilla.org/en-US/docs/Glossary/HTML5) 
+[HTML](https://developer.mozilla.org/en-US/docs/Glossary/HTML5) 
 
 The term HTML5 is a buzzword that refers to a set of modern web technologies. This includes the HTML living standard, along with JavaScript APIs
 to enhance storage, multimedia, and hardware access. 
