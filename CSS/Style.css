@@ -1,6 +1,22 @@
 header { 
-    border-radius: 50px;
-    border-color:  #F6D2CB;
-    font-family: lato sans-serif;
-    color:  #C5DDBB; 
+    
+    background: url('tioman-island.jpeg')
+    no-repeat center/cover;
+    height: 500px;
+    width: 100%;
+}
+
+h1 { 
+    
+    background-image: url('tioman-TwinPeaks.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+
+
+}
+
+h2 { 
+    background-image: url('Jungle1.html');
 }
