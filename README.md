@@ -135,17 +135,42 @@ It also contains home icon which brings you back to the homepage.
 
 [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
-Cascading style sheets or CSS is a stylesheet language used to describe the presentation of a document written in HTML or XML ( including XML dialects such as 
-SVG, MathML or XHTML). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.
-
-CSS is among the core languages of the open web and is standardized across Web browsers according to W3C specifications. Previously, the development of various parts of CSS specification was done synchronously, which allowed the versoning of the latest recommendations. You might have heard about CSS1, CSS2.1, or even CSS3. There will never be a CSS3 or a CSS4; rather, everything is now just "CSS" with individual CSS modules having version numbers.
-
-After CSS 2.1, the scope of the specification increased significantly and the progress on different CSS modules started to differ so much, that it became more effective to develop and release recommendations separately per module. Instead of versioning the CSS specification, W3C noow periodically takes a snapshot of the latest stable state of the CSS specification and the individual modules progress. CSS modules now have version numbers, or levels, such as CSS Color Module Level 5.
-
 
 # Libraries & Framework
 
 Coolors 
+Balsamiq
+Google Pics
+
+### Bugs 
+
+The website was throughly tested. 
+
+### Feature testing 
+
+The website was vigoruosly tested for functionality using both Chrome and Edge developer tools.
+
+### Accessibility testing 
+
+I have use the web accessibility tool WAVE which helps determine if the content on the web page is accessible to 
+individuals with diverse needs. No issues were raised.
+
+### Lighthouse testing 
+
+The Tioman Island website has been tested in the Chrome Dev Tools and Microsoft Edge Dev Tools using Lighthouse Testing tool which inspects 
+and scores the website for the following criteria:
+
+          Performance-how quickly the website loads and how quickly users can access it.
+          Accessibility-test analyses how well people who use assistive technologies can use you website.
+          Best Practices-checks whether the page is built on the modern standards of web development.
+          SEO-checks if the website is optimised for search engine result rankings.
+
+### Browser Testing 
+
+The Tioman Island website was examined for bugs and malfunctions using a variety of browsers. Opera, Firefox, Google Chrome, and Microsoft Edge were selected for thorough testing. Additionally, I have registered with BrowserStack in order to test my page on both Safari and Internet Explorer. Due to its age, Internet Explorer's initial results were quite subpar. On an iPad and an iPhone, I tested Safari. For the website's final version, no significant problems were discovered on the top 4 browsers. The test findings were verified.
+
+# Deployment
+          
 
 
 
