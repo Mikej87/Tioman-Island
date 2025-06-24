@@ -13,21 +13,28 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: #D6FFFC;
     /* Generic project styles */
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
 }
 
-h1, h2, h3 {
-    font-family: 'Oswald', sans-serif;
+h1, h2  {
+    font-family: 'Lato', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #252525;
+    color: #709BFF;
+    text-decoration: underline;
+    font-size: 4rem;
+    text-align: center;
+    font-style: italic;
+    
 }
 
 /* Header */
 header {
-    background-color: #ffffff;
+    background-color: #FDF4C4;
+    color: #709BFF;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -39,7 +46,7 @@ header {
 }
 
 header a {
-    text-decoration: none;
+    text-decoration: underline;
     color: inherit;
 }
 
@@ -60,7 +67,7 @@ header a {
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: #ffffff;
+    background-color: #FDF4C4;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -82,6 +89,71 @@ nav {
     font-size: 2rem;
 }
 
+.image1 { 
+    width: 100%;
+    height: 600px;
+}
+
+.image2 { 
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image3 { 
+    width: 100%;
+    height: 600px;
+    background-position: center;
+}
+
+.image4 { 
+       background-position: center;
+       width: 100%;
+       height:400px;
+       
+}
+
+.image5 { 
+    border-radius: 50%;
+}
+
+.image6 { 
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+.image7 { 
+    height: 300px;
+    width:300px;
+    border-radius: 50%;
+    margin-left: 60px;
+}
+
+.image8 { 
+    width: 100%;
+    background-position: cover;
+    height: auto;
+} 
+
+.contactus { 
+    width: 100%;
+}
+
+.gallery1 { 
+    width: 100%
+}
+
+ p { 
+    color:#709BFF;
+    background-color: #D6FFFC;
+    font-size: 2rem;
+    border-style: double;
+}
+
 /* Main content */
 main {
     /* Make main element take up any surplus space to push footer down */
@@ -89,18 +161,20 @@ main {
     margin-top: 47px;
 }
 
-/* Hero section */
-#hero {
+
+#history {
     height: 600px;
     width: 100%;
-    background: url("../images/hero-image.webp") no-repeat center center/cover;
+    background: url("../tioman-TwinPeaks.jpg") no-repeat center center/cover;
     position: relative;
+    height: 400px;
 }
 
 #cover-text {
     /* Final rgba value sets the opacity so it is semi-transparent */
-    background-color: rgba(241, 109, 107, .7);
-    font-size: 130%;
+    background-color: #FDF4C4;
+    text-decoration: underline;
+    font-size: 150%;
     position: absolute;
     bottom: 30px;
     width: 80%;
@@ -110,35 +184,10 @@ main {
 }
 
 #cover-text > h2, #cover-text > h3 {
-    color: #ffffff;
+    color: #709BFF;
 }
 
-/* Reasons section */
-#reasons {
-    width: 90%;
-    margin: 20px auto;
-}
 
-#reasons h2 {
-    margin-bottom: 20px;
-    text-align: center;
-    font-size: 280%;
-}
-
-#benefits-physical > div,
-#benefits-mental > div {
-    line-height: 20px;
-    margin-bottom: 20px;
-}
-
-#benefits p {
-    padding: 0 20px;
-}
-
-#benefits hr {
-    border-top: 1px solid #3a3a3a;
-    margin: 5px 0;
-}
 
 /* Footer */
 #social-networks {
@@ -147,6 +196,7 @@ main {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    background-color: #F6D2CB;
 }
 
 #social-networks i {
