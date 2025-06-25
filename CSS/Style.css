@@ -17,6 +17,10 @@ body {
     /* Generic project styles */
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
+    background-image: url("../beachhuts.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 h1, h2  {
@@ -97,6 +101,10 @@ nav {
     height: auto;
     max-width: 100%;
     object-fit: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .image2 { 
@@ -128,7 +136,7 @@ nav {
 }
 
 .image6 { 
-    height: auto;
+    height: 300px;
     width: 300px;
     border-radius: 50%;
     background-size: cover;
@@ -183,8 +191,7 @@ nav {
  p { 
     color:#709BFF;
     background-color: #D6FFFC;
-    font-size: 5vw;
-    border-style: double;
+    font-size: 2px;
     width: 100%;  
     margin: 20px 20px;
     font-style: italic;
@@ -196,7 +203,7 @@ nav {
 p:nth-of-type(2) { 
     background-color: #F6D2CB;
     font-style: bold;
-    font-size: 5vw;
+    font-size: 2px;
 }
 
 
@@ -219,7 +226,6 @@ main {
 #cover-text {
     
     background-color: #FDF4C4;
-    text-decoration: underline;
     font-size: 150%;
     position: absolute;
     bottom: 30px;
@@ -293,12 +299,12 @@ main {
     }
 
     p { 
-        font-size: 5vw;
+        font-size: 2vw;
         
     }
 
     p:nth-of-type(2) {
-        font-size: 5vw;
+        font-size: 2vw;
     }
 
     footer { 

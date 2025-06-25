@@ -77,11 +77,11 @@ more visually appealing.
 
 | CSS name | HEX    | Comment           | 
 | -------- | ------ | ----------------- |
-| Tea Green| #C5DDBB| Some text, Footer |
+| Tea Green| #C5DDBB| Footer |
 | Lemon Chiffon | #FDF4C4 | Background colour for the Header |
-| Cornflower Blue | #709BFF | Font colour for the Sealife section |
-| Mint Green | #D6FFFC | Background and border colour |
-| Pale Dogwood | #F6D2CB | Font colour for Header |
+| Cornflower Blue | #709BFF | Font colour |
+| Mint Green | #D6FFFC | Background colour |
+| Pale Dogwood | #F6D2CB | Background colour |
 
 
 ### Images 
@@ -160,16 +160,67 @@ individuals with diverse needs. No issues were raised.
 The Tioman Island website has been tested in the Chrome Dev Tools and Microsoft Edge Dev Tools using Lighthouse Testing tool which inspects 
 and scores the website for the following criteria:
 
-          Performance-how quickly the website loads and how quickly users can access it.
-          Accessibility-test analyses how well people who use assistive technologies can use you website.
-          Best Practices-checks whether the page is built on the modern standards of web development.
-          SEO-checks if the website is optimised for search engine result rankings.
+         - Performance-how quickly the website loads and how quickly users can access it.
+         - Accessibility-test analyses how well people who use assistive technologies can use you website.
+         - Best Practices-checks whether the page is built on the modern standards of web development.
+         - SEO-checks if the website is optimised for search engine result rankings.
 
 ### Browser Testing 
 
 The Tioman Island website was examined for bugs and malfunctions using a variety of browsers. Opera, Firefox, Google Chrome, and Microsoft Edge were selected for thorough testing. Additionally, I have registered with BrowserStack in order to test my page on both Safari and Internet Explorer. Due to its age, Internet Explorer's initial results were quite subpar. On an iPad and an iPhone, I tested Safari. For the website's final version, no significant problems were discovered on the top 4 browsers. The test findings were verified.
 
-# Deployment
+# Deployment 
+
+The Tioman Island website was deployed early in the process to GitHub pages via the following steps:
+
+- Navigate to the repository on GitHub and click on settings.
+- Go to navigation and select the pages.
+- Go to the none dropdown and choose main.
+- Click on the save button.
+- the website is now live at [   ]( )
+
+  *Any changes required to the website, they can be made, commited and pushed to GitHub.*
+
+  ### To fork the project
+
+  Forking the GitHub repository allows you to create a duplicate of a local repository. This is done so that modifications to the copy can be performed without compromising the original repository.
+
+  - Login to GitHub.
+  - Locate the repository.
+  - Click to open it.
+  - The fork button is located on the right side of the repository menu.
+  - To copy the repository to your GitHub account, click the button.
+
+    ### To clone the project
+
+ - Log in to GitHub.
+ - Navigate to the main page of the repository.
+ - Copy the url for the repository.
+  - Open you local IDE.
+ - Change the current working directory to the location where you want the cloned directory.
+ - Type git clone, and then paste the URL you copied earlier.
+
+   # Credits
+
+   Feedback, advice and support:
+
+   Simen Daehlin
+
+   Code inspiration and learning content:
+
+   Love running project
+
+   Visual content:
+
+   Coolors
+   Contrast Grid
+
+   Images:
+
+   Google images
+    
+
+
           
 
 
