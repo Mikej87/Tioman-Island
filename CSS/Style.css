@@ -94,26 +94,31 @@ nav {
 
 .image1 { 
     width: 100%;
-    height: 600px;
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
 }
 
 .image2 { 
     width: 100%;
-    height: 600px;
+    height: auto;
     background-repeat: no-repeat;
     background-position: center;
+    max-width: 100%;
 }
 
 .image3 { 
     width: 100%;
-    height: 600px;
+    height: auto;
     background-position: center;
+    max-width: 100%;
 }
 
 .image4 { 
        background-position: center;
        width: 100%;
-       height:400px;
+       height: auto;
+       max-width: 100%;
        
 }
 
@@ -123,7 +128,7 @@ nav {
 }
 
 .image6 { 
-    height: 300px;
+    height: auto;
     width: 300px;
     border-radius: 50%;
     background-size: cover;
@@ -170,22 +175,20 @@ nav {
 .contactus { 
     width: 100%;
 }
-
-.gallery1 { 
-    width: 100%
-    height: 300px;
-    width: 300px;
+.form-label { 
+    color:#709BFF;
+    text-decoration: underline;
+    
 }
-
  p { 
     color:#709BFF;
     background-color: #D6FFFC;
-    font-size: 2rem;
+    font-size: 5vw;
     border-style: double;
     width: 100%;  
     margin: 20px 20px;
     font-style: italic;
-    max-width: 1200px;
+    max-width: 1000px;
     text-align: center;
     margin-left: 170px;
 }
@@ -193,17 +196,13 @@ nav {
 p:nth-of-type(2) { 
     background-color: #F6D2CB;
     font-style: bold;
+    font-size: 5vw;
 }
 
-p:nth-of-type(4) { 
-    width: 50%;
-
-    
-}
 
 /* Main content */
 main {
-    /* Make main element take up any surplus space to push footer down */
+    
     flex: 1 0 auto;
     margin-top: 47px;
 }
@@ -218,7 +217,7 @@ main {
 }
 
 #cover-text {
-    /* Final rgba value sets the opacity so it is semi-transparent */
+    
     background-color: #FDF4C4;
     text-decoration: underline;
     font-size: 150%;
@@ -291,6 +290,29 @@ main {
     #cover-text {
         width: 300px;
         right: 50px;
+    }
+
+    p { 
+        font-size: 5vw;
+        
+    }
+
+    p:nth-of-type(2) {
+        font-size: 5vw;
+    }
+
+    footer { 
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .image1 { 
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        display: block;
+        
     }
 }
 
