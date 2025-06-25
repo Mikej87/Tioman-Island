@@ -193,12 +193,31 @@ The Tioman Island website was deployed early in the process to GitHub pages via 
 
     ### To clone the project
 
-    - Log in to GitHub.
-    - Navigate to the main page of the repository.
-    - Copy the url for the repository.
-    - Open you local IDE.
-    - Change the current working directory to the location where you want the cloned directory.
-    - Type git clone, and then paste the URL you copied earlier.
+ - Log in to GitHub.
+ - Navigate to the main page of the repository.
+ - Copy the url for the repository.
+  - Open you local IDE.
+ - Change the current working directory to the location where you want the cloned directory.
+ - Type git clone, and then paste the URL you copied earlier.
+
+   # Credits
+
+   Feedback, advice and support:
+
+   Simen Daehlin
+
+   Code inspiration and learning content:
+
+   Love running project
+
+   Visual content:
+
+   Coolors
+   Contrast Grid
+
+   Images:
+
+   Google images
     
 
 
