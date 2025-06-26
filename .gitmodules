@@ -1,0 +1,3 @@
+[submodule "src/tioman-island"]
+	path = src/tioman-island
+	url = https://github.com/mikej87/Tioman-Island.git
