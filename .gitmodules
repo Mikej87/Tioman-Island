@@ -1,6 +1,0 @@
-[submodule "Tioman-Island"]
-	path = Tioman-Island
-	url = https://github.com/mikej87/Tioman-Island.git
-[submodule "Tioman-Island"]
-	branch = master
-	path = Tioman-Island
