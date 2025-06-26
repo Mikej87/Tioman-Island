@@ -1,4 +1,4 @@
-[submodule "src/Tioman-Island"]
+[submodule "Tioman-Island"]
 	path = src/Tioman-Island
 	url = https://github.com/mikej87/Tioman-Island.git
 [submodule "Tioman-Island"]
