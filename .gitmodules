@@ -1,5 +1,5 @@
-[submodule "src/tioman-island"]
-	path = src/tioman-island
+[submodule "src/Tioman-Island"]
+	path = src/Tioman-Island
 	url = https://github.com/mikej87/Tioman-Island.git
 [submodule "Tioman-Island"]
 	branch = master
