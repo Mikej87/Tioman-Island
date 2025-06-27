@@ -96,24 +96,6 @@ nav {
     font-size: 2rem;
 }
 
-.image1 { 
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-    object-fit: cover;
-    position: relative;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.image2 { 
-    width: 100%;
-    height: auto;
-    background-repeat: no-repeat;
-    background-position: center;
-    max-width: 100%;
-}
 
 .image3 { 
     width: 100%;
@@ -147,12 +129,6 @@ nav {
     margin-left: 100px;
     
 }
-
-.image8 { 
-    width: 100%;
-    background-position: cover;
-    height: auto;
-} 
 
 .image10 { 
     height: 300px;
