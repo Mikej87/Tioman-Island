@@ -29,7 +29,7 @@ h1, h2  {
     letter-spacing: 2px;
     color: #709BFF;
     text-decoration: none;
-    font-size: 4rem;
+    font-size: 2rem;
     text-align: center;
     font-style: bold;
     
@@ -96,63 +96,61 @@ nav {
     font-size: 2rem;
 }
 
+.gallerynav { 
+    width: 100%;
+    margin-left: 60%;
+}
 
-.image3 { 
+.contactnav { 
+    width:100%;
+    margin-left: 50%;
+}
+
+#contactform { 
+    margin-top: 12rem;
+}
+
+/*images*/
+.image1 { 
     width: 100%;
     height: auto;
     background-position: center;
     max-width: 100%;
 }
 
-.image4 { 
-       background-position: center;
-       width: 100%;
-       height: auto;
-       max-width: 100%;
-       
+.image2 { 
+    
+    height: auto;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.image3 { 
+    
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
 }
 
 
+.image5 { 
+    
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
 
 .image6 { 
+    
     height: 300px;
     width: 300px;
     border-radius: 50%;
-    background-size: cover;
-    background-position: center;
 }
 
-.image7 { 
-    height: 300px;
-    width:300px;
-    border-radius: 50%;
-    margin-left: 100px;
-    
+.gallery1 { 
+    height: auto;
+    width: 100%;
 }
-
-.image10 { 
-    height: 300px;
-    width: 300px;  
-    border-radius: 50%;
-    margin-left: 100px;
-
-    
-}
-
-.image11 { 
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
-    margin-left: 100px;
-} 
-
-.image12 { 
-    
-    margin-left: 50px;
-    border-radius: 50%;
-    
-}
-
 .contactus { 
     width: 100%;
     background-repeat: repeat;
@@ -173,7 +171,7 @@ nav {
     font-style: italic;
     max-width: 1000px;
     text-align: center;
-    margin-left: 170px;
+    
 }
 
 p:nth-of-type(2) { 
@@ -201,7 +199,7 @@ main {
 
 #cover-text {
     
-    background-color: #C5DDBB;
+    background-color: #D6FFFC;
     font-size: 150%;
     position: absolute;
     bottom: 30px;
@@ -233,6 +231,12 @@ main {
     color: #3a3a3a;
 }
 
+.contactsfooter { 
+    position: fixed;
+    bottom: 0;
+    width: 100%
+}
+
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -261,6 +265,19 @@ main {
         font-size: 280%;
         line-height: 75px;
         margin: 0 0.5rem;
+    } 
+    
+    .contactnav{ 
+        display: flex;
+        box-shadow: none;
+        padding-right: 1rem;
+        width: 100%;
+    }
+    .gallerynav{ 
+        display: block;
+        box-shadow: none;
+        padding-right: 1rem;
+        width: 100%;
     }
 
     /* Main content */
@@ -297,6 +314,47 @@ main {
         display: block;
         
     }
+
+    .image2 { 
+    
+    height: auto;
+    width: 100%;
+
+}
+
+.image3 { 
+    
+    height: auto;
+    max-width: 100%;
+
+}
+
+.image4 { 
+    
+    height: auto;
+    max-width: 100%;
+    
+}
+
+.image5 { 
+    
+    height: auto;
+    max-width: 100%;
+    
+}
+
+.image6 { 
+    
+    height: auto;
+    max-width: 100%;
+    
+}
+
+.gallery1 { 
+    height: auto;
+    max-width: 100%;
+}
+
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
