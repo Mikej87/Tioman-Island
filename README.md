@@ -7,7 +7,7 @@ The page has tips and guides you through the Island so you can be prepared when 
 was created when a dragon lay down and died after loosing her partner. This is what makes Tiomans peaks and Island. In the 1600's pirates ravaged the Island for anything they could, including the local people! The 
 pirates would then sell the locals into slavery, some of the pirates stayed on the Island and many of the local inhabitants and desendents of them pirates. 
 
-So step into a jungle island adventure and visit Tioman Island. Check out our contact box to get in touch with us.
+So step into a jungle island adventure and visit Tioman Island. Check out our contact page to get in touch with us.
 
 ![Island Picture](assets/images/tioman-island.jpeg)
 
@@ -56,7 +56,7 @@ So step into a jungle island adventure and visit Tioman Island. Check out our co
 ### Wireframes
 
 I used balsamiq to make the wireframes on mobile, tablet and laptop. There are some slight differences to the mobile, tablet and laptop wireframes.
-It is a one page website to enhance the logical flow. I have included relevent information and a Contact us button for further contact.
+It is a one page website to enhance the logical flow. I have included relevent information and a Contact us page for further contact.
 
 
 ### Design Choices
@@ -68,20 +68,20 @@ also has a clear and easy to read style, making it suitable for web design and p
 ### Colour Scheme 
 
 The colour scheme chosen based on the background image. All the colours are tropical to match the colours of the Island.
-![Colours](Coolors.png)
+![Colours](assets/images/Coolors.png)
 
 I have also attached a contrast grid to show the possibility of different combinations, these can make the website look 
 more visually appealing.
 
-![Contrast Grid](Contrastgrid.jpeg)
+![Contrast Grid](assets/images/Contrastgrid.jpeg)
 
 | CSS name | HEX    | Comment           | 
 | -------- | ------ | ----------------- |
-| Tea Green| #C5DDBB| Footer |
+| Tea Green| #C5DDBB| Background colour |
 | Lemon Chiffon | #FDF4C4 | Background colour for the Header |
 | Cornflower Blue | #709BFF | Font colour |
-| Mint Green | #D6FFFC | Background colour |
-| Pale Dogwood | #F6D2CB | Background colour |
+| Mint Green | #D6FFFC | Background colour/p |
+| Pale Dogwood | #F6D2CB | Background colour for footer/p |
 
 
 ### Images 
@@ -177,7 +177,7 @@ The Tioman Island website was deployed early in the process to GitHub pages via 
 - Go to navigation and select the pages.
 - Go to the none dropdown and choose main.
 - Click on the save button.
-- the website is now live at [   ]( )
+- the website is now live at [Tioman-Island](https://mikej87.github.io/Tioman-Island/index.html)
 
   *Any changes required to the website, they can be made, commited and pushed to GitHub.*
 
@@ -205,6 +205,7 @@ The Tioman Island website was deployed early in the process to GitHub pages via 
    Feedback, advice and support:
 
    Simen Daehlin
+   Rory Patrick Sheridan
 
    Code inspiration and learning content:
 
