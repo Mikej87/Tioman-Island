@@ -151,27 +151,29 @@ nav {
     width: 100%;
 }
 
-.accomodation { 
-    background-image: url("../assets/images/Tioman-hotel.jpg");
-    height: 300px;
+.image7 { 
+    width: 100%
 }
 
 .gallery1 { 
     height: auto;
     width: 100%;
 }
+
 .contactus { 
     width: 100%;
     background-repeat: repeat;
     background-position: center;
     background-size: cover;
 }
+
 .form-label { 
     color:#709BFF;
     text-decoration: underline;
     
 }
- p { 
+
+p { 
     color:#709BFF;
     background-color: #D6FFFC;
     font-size: 1rem;
@@ -364,7 +366,7 @@ main {
     
 }
 
-.accomodation { 
+.image7 { 
     height: auto;
     max-width: 100%;
 }
