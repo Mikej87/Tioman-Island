@@ -133,6 +133,13 @@ nav {
 }
 
 
+.image4 { 
+    
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
 .image5 { 
     
     height: 300px;
@@ -141,10 +148,7 @@ nav {
 }
 
 .image6 { 
-    
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
+    width: 100%;
 }
 
 .gallery1 { 
@@ -165,19 +169,21 @@ nav {
  p { 
     color:#709BFF;
     background-color: #D6FFFC;
-    font-size: 2px;
-    width: 100%;  
+    font-size: 1rem;
+    width: fit-content;  
     margin: 20px 20px;
     font-style: italic;
-    max-width: 1000px;
-    text-align: center;
+    max-width: 800px;
+    
     
 }
 
 p:nth-of-type(2) { 
     background-color: #F6D2CB;
     font-style: bold;
-    font-size: 2px;
+    font-size: 1rem;
+    max-width: 600px;
+    
 }
 
 
@@ -293,12 +299,14 @@ main {
     }
 
     p { 
-        font-size: 2vw;
+        font-size: 1rem;
+        max-width: 800px;
         
     }
 
     p:nth-of-type(2) {
-        font-size: 2vw;
+        font-size: 1rem;
+        max-width: 800px
     }
 
     footer { 
