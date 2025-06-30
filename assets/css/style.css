@@ -151,6 +151,11 @@ nav {
     width: 100%;
 }
 
+.accomodation { 
+    background-image: url("../assets/images/Swisscottage.jpg");
+    height: 300px;
+}
+
 .gallery1 { 
     height: auto;
     width: 100%;
@@ -174,6 +179,7 @@ nav {
     margin: 40px 20px;
     font-style: italic;
     max-width: 800px;
+    opacity: 0.75;
     
     
 }
@@ -356,6 +362,11 @@ main {
     height: auto;
     max-width: 100%;
     
+}
+
+.accomodation { 
+    height: auto;
+    max-width: 100%;
 }
 
 .gallery1 { 
