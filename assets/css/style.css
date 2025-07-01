@@ -13,7 +13,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: #D6FFFC;
+    background-color: #F3D7BF;
     /* Generic project styles */
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
@@ -27,11 +27,12 @@ h1, h2  {
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #709BFF;
+    color: #244D88;
     text-decoration: none;
     font-size: 2rem;
     text-align: center;
     font-style: bold;
+    background-color: #F3D7BF;
     
     
 }
@@ -40,10 +41,10 @@ h1, h2  {
 
 /* Header */
 header {
-    background-color: #FDF4C4;
-    color: #709BFF;
+    background-color: #F3D7BF;
+    color: #1b3b77;
     padding: 0 1rem;
-    position: fixed;
+    position: sticky;
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
@@ -74,7 +75,7 @@ header a {
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: #FDF4C4;
+    background-color: #F3D7BF;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -168,27 +169,28 @@ nav {
 }
 
 .form-label { 
-    color:#709BFF;
+    color:#244D88;
     text-decoration: underline;
     
 }
 
 p { 
-    color:#709BFF;
-    background-color: #D6FFFC;
+    color:#1b3b77;
+    background-color: #F3D7BF;
     font-size: 1rem;
     width: fit-content;  
     margin: 40px 20px;
     font-style: italic;
     max-width: 800px;
-    opacity: 0.75;
+    opacity: 0.99;
+    font-weight: bold;
     
     
 }
 
 p:nth-of-type(2) { 
-    background-color: #F6D2CB;
-    font-style: bold;
+    background-color: #F3D7BF;
+    font-weight: bold;
     font-size: 1rem;
     max-width: 600px;
     
@@ -213,7 +215,7 @@ main {
 
 #cover-text {
     
-    background-color: #D6FFFC;
+    background-color: #F3D7BF;
     font-size: 150%;
     position: absolute;
     bottom: 30px;
@@ -224,7 +226,7 @@ main {
 }
 
 #cover-text > h2, #cover-text > h3 {
-    color: #709BFF;
+    color: #1b3b77;
 }
 
 
