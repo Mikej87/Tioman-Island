@@ -175,7 +175,7 @@ The Tioman Island website was examined for bugs and malfunctions using a variety
 
 ## Code Validation
 
-#HTML
+# HTML
 
 I have used W3C HTML Validation Service. I have tested all 3 html files.
 They all came back with no errors.
@@ -183,7 +183,7 @@ They all came back with no errors.
 ![htmlvalidator](assets/images/gallerycheck1.png)
 ![htmlvalidator](assets/images/contactcheck1.png)
 
-#CSS 
+# CSS 
 
 CSS code for the webpage was valiated on W3C CSS Validation Service. It has returned no errors.
 ![CSSvalidator](assets/images/cssimage.png)
