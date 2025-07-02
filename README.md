@@ -57,6 +57,7 @@ So step into a jungle island adventure and visit Tioman Island. Check out our co
 
 I used balsamiq to make the wireframes on mobile, tablet and laptop. There are some slight differences to the mobile, tablet and laptop wireframes.
 It is a one page website to enhance the logical flow. I have included relevent information and a Contact us page for further contact.
+[Wireframe](assets/images/wireframe.png)
 
 
 ### Design Choices
@@ -153,7 +154,10 @@ The website was vigoruosly tested for functionality using both Chrome and Edge d
 ### Accessibility testing 
 
 I have use the web accessibility tool WAVE which helps determine if the content on the web page is accessible to 
-individuals with diverse needs. No issues were raised.
+individuals with diverse needs. There is one warning on the nav but this is an essential link for the home page. Images below of each page being tested.
+[Wavetool](assets/images/wave1.png)
+[wavetool](assets/images/wave2.png)
+[Wavetool](assets/images.wave3.png)
 
 ### Lighthouse testing 
 
@@ -168,6 +172,21 @@ and scores the website for the following criteria:
 ### Browser Testing 
 
 The Tioman Island website was examined for bugs and malfunctions using a variety of browsers. Opera, Firefox, Google Chrome, and Microsoft Edge were selected for thorough testing. Additionally, I have registered with BrowserStack in order to test my page on both Safari and Internet Explorer. Due to its age, Internet Explorer's initial results were quite subpar. On an iPad and an iPhone, I tested Safari. For the website's final version, no significant problems were discovered on the top 4 browsers. The test findings were verified.
+
+## Code Validation
+
+#HTML
+
+I have used W3C HTML Validation Service. I have tested all 3 html files.
+They all came back with no errors.
+[htmlvalidator](assets/images/indexcheck1.png)
+[htmlvalidator](assets/images/gallerycheck1.png)
+[htmlvalidator](assets/images/contactcheck1.png)
+
+#CSS 
+
+CSS code for the webpage was valiated on W3C CSS Validation Service. It has returned no errors.
+[CSSvalidator](assets/images/cssimage.png)
 
 # Deployment 
 
