@@ -57,7 +57,7 @@ So step into a jungle island adventure and visit Tioman Island. Check out our co
 
 I used balsamiq to make the wireframes on mobile, tablet and laptop. There are some slight differences to the mobile, tablet and laptop wireframes.
 It is a one page website to enhance the logical flow. I have included relevent information and a Contact us page for further contact.
-[Wireframe](assets/images/wireframe.png)
+![Wireframe](assets/images/wireframe.png)
 
 
 ### Design Choices
@@ -131,10 +131,10 @@ It also contains home icon which brings you back to the homepage.
 
 ## Languages 
 
-[HTML](https://developer.mozilla.org/en-US/docs/Glossary/HTML5) 
+![HTML](https://developer.mozilla.org/en-US/docs/Glossary/HTML5) 
 
 
-[CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+![CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 
 # Libraries & Framework
@@ -155,9 +155,9 @@ The website was vigoruosly tested for functionality using both Chrome and Edge d
 
 I have use the web accessibility tool WAVE which helps determine if the content on the web page is accessible to 
 individuals with diverse needs. There is one warning on the nav but this is an essential link for the home page. Images below of each page being tested.
-[Wavetool](assets/images/wave1.png)
-[wavetool](assets/images/wave2.png)
-[Wavetool](assets/images.wave3.png)
+![Wavetool](assets/images/wave1.png)
+![wavetool](assets/images/wave2.png)
+![Wavetool](assets/images.wave3.png)
 
 ### Lighthouse testing 
 
@@ -179,14 +179,14 @@ The Tioman Island website was examined for bugs and malfunctions using a variety
 
 I have used W3C HTML Validation Service. I have tested all 3 html files.
 They all came back with no errors.
-[htmlvalidator](assets/images/indexcheck1.png)
-[htmlvalidator](assets/images/gallerycheck1.png)
-[htmlvalidator](assets/images/contactcheck1.png)
+![htmlvalidator](assets/images/indexcheck1.png)
+![htmlvalidator](assets/images/gallerycheck1.png)
+![htmlvalidator](assets/images/contactcheck1.png)
 
 #CSS 
 
 CSS code for the webpage was valiated on W3C CSS Validation Service. It has returned no errors.
-[CSSvalidator](assets/images/cssimage.png)
+![CSSvalidator](assets/images/cssimage.png)
 
 # Deployment 
 
