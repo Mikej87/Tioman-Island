@@ -188,6 +188,11 @@ They all came back with no errors.
 CSS code for the webpage was valiated on W3C CSS Validation Service. It has returned no errors.
 ![CSSvalidator](assets/images/cssimage.png)
 
+## User Story Testing
+| User Story | Result |Pass |
+| As a user,I want to be informed and educated on the Island. | Page explains history and various things about the island. | Yes |
+  
+
 
 
 # Deployment 
