@@ -192,7 +192,12 @@ CSS code for the webpage was valiated on W3C CSS Validation Service. It has retu
 | User Story | Result |Pass |
 | ---------- | ------ | --- |
 | As a user,I want to be informed and educated on the Island. | Page explains history and various things about the island. | Yes |
-  
+| As a user, I want to see different activities and have local knowledge that's relevent to my enjoyment. | Page shows different activities. | Yes |
+| As a user, I want the instruction and information to be clear and easily understood. | Page shows information and is clear. | Yes |
+| As a user, I want to see different hotels and aspects of the Island. | Page shows different areas of the Island. | Yes |
+| As a user, I want to use my site on different devices. | Works on varoius devices. | Yes |
+| As a user, I want to be able to contact the creator for feedback or changes. | Yes through the comtact us page. | Yes |
+| As a user, I want the content to be accessible to anyone with diverse needs. | Yes tested with various methods. | Yes |
 
 
 
