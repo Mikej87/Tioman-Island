@@ -190,6 +190,7 @@ CSS code for the webpage was valiated on W3C CSS Validation Service. It has retu
 
 ## User Story Testing
 | User Story | Result |Pass |
+| ---------- | ------ | --- |
 | As a user,I want to be informed and educated on the Island. | Page explains history and various things about the island. | Yes |
   
 
