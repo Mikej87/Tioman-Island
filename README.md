@@ -78,11 +78,11 @@ more visually appealing.
 
 | CSS name | HEX    | Comment           | 
 | -------- | ------ | ----------------- |
-| Tea Green| #C5DDBB| Background colour |
-| Lemon Chiffon | #FDF4C4 | Background colour for the Header |
-| Cornflower Blue | #709BFF | Font colour |
-| Mint Green | #D6FFFC | Background colour/p |
-| Pale Dogwood | #F6D2CB | Background colour for footer/p |
+| Pakistan Green| #283104| Background colour |
+| Desert Sand | #F3D7BF | Background colour for the Header |
+| Yinmn Blue | #709BFF | Font colour |
+| Yale Blue | #1B3B77 | Background colour/p |
+| Smoky Black | #F6D2CB | Background colour for footer/p |
 
 
 ### Images 
@@ -157,7 +157,7 @@ I have use the web accessibility tool WAVE which helps determine if the content 
 individuals with diverse needs. There is one warning on the nav but this is an essential link for the home page. Images below of each page being tested.
 ![Wavetool](assets/images/wave1.png)
 ![wavetool](assets/images/wave2.png)
-![Wavetool](assets/images.wave3.png)
+![Wavetool](assets/images/wave3.png)
 
 ### Lighthouse testing 
 
