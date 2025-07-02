@@ -68,7 +68,7 @@ also has a clear and easy to read style, making it suitable for web design and p
 ### Colour Scheme 
 
 The colour scheme chosen based on the background image. All the colours are tropical to match the colours of the Island.
-![Colours](assets/images/coolors.png)
+![Colours]()
 
 I have also attached a contrast grid to show the possibility of different combinations, these can make the website look 
 more visually appealing.
