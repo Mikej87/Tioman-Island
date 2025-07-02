@@ -28,29 +28,13 @@
         </ul>
       </nav>
     </header>
-
-    <div class="mb-1 pt-10 mt-10 w-50" id="contactform">
-      <label for="exampleFormControlInput1" class="form-label"
-        >Email address</label
-      >
-      <input
-        type="email"
-        class="form-control"
-        id="exampleFormControlInput1"
-        placeholder="name@example.com"
-      />
-    </div>
-    <div class="mb-1 mt-5 w-50">
-      <label for="exampleFormControlTextarea1" class="form-label"
-        >Get in touch!</label
-      >
-      <textarea
-        class="form-control"
-        id="exampleFormControlTextarea1"
-        rows="3"
-      ></textarea>
-      <button type="button" class="btn btn-primary">Send</button>
-    </div>
+    <form action="/action_page.php">
+      <label class="flname" for="fname">First name:</label><br />
+      <input type="text" id="fname" value="John" /><br /><br />
+      <label class="flname" for="fname">Last name:</label><br />
+      <input type="text" id="fname" value="Smith" /><br /><br />
+      <input type="submit" value="Submit" />
+    </form>
 
     <footer class="contactsfooter">
       <ul id="social-networks">

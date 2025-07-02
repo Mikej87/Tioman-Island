@@ -31,7 +31,7 @@ h1, h2  {
     text-decoration: none;
     font-size: 2rem;
     text-align: center;
-    font-style: bold;
+    font-weight: bold;
     background-color: #F3D7BF;
     
     
@@ -161,12 +161,7 @@ nav {
     width: 100%;
 }
 
-.contactus { 
-    width: 100%;
-    background-repeat: repeat;
-    background-position: center;
-    background-size: cover;
-}
+
 
 .form-label { 
     color:#244D88;
@@ -229,6 +224,11 @@ main {
     color: #1b3b77;
 }
 
+.flname { 
+    color: #F3D7BF;
+    font-weight: bold;
+    
+}
 
 /*Code from Love Running*/
 /* Footer */
