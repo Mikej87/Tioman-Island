@@ -69,7 +69,7 @@ also has a clear and easy to read style, making it suitable for web design and p
 ### Colour Scheme 
 
 The colour scheme chosen based on the background image. All the colours are tropical to match the colours of the Island.
-![Colours](assets/images/Coolorspalette.png)
+![Colours](assets/images/Coolors.png)
 
 I have also attached a contrast grid to show the possibility of different combinations, these can make the website look 
 more visually appealing.
@@ -78,11 +78,11 @@ more visually appealing.
 
 | CSS name | HEX    | Comment           | 
 | -------- | ------ | ----------------- |
-| Tea Green| #C5DDBB| Background colour |
-| Lemon Chiffon | #FDF4C4 | Background colour for the Header |
-| Cornflower Blue | #709BFF | Font colour |
-| Mint Green | #D6FFFC | Background colour/p |
-| Pale Dogwood | #F6D2CB | Background colour for footer/p |
+| Pakistan Green| #283104| Background colour |
+| Desert Sand | #F3D7BF | Background colour for the Header |
+| Yinmn Blue | #709BFF | Font colour |
+| Yale Blue | #1B3B77 | Background colour/p |
+| Smoky Black | #F6D2CB | Background colour for footer/p |
 
 
 ### Images 
@@ -157,7 +157,7 @@ I have use the web accessibility tool WAVE which helps determine if the content 
 individuals with diverse needs. There is one warning on the nav but this is an essential link for the home page. Images below of each page being tested.
 ![Wavetool](assets/images/wave1.png)
 ![wavetool](assets/images/wave2.png)
-![Wavetool](assets/images.wave3.png)
+![Wavetool](assets/images/wave3.png)
 
 ### Lighthouse testing 
 
@@ -175,7 +175,7 @@ The Tioman Island website was examined for bugs and malfunctions using a variety
 
 ## Code Validation
 
-#HTML
+### HTML
 
 I have used W3C HTML Validation Service. I have tested all 3 html files.
 They all came back with no errors.
@@ -183,10 +183,23 @@ They all came back with no errors.
 ![htmlvalidator](assets/images/gallerycheck1.png)
 ![htmlvalidator](assets/images/contactcheck1.png)
 
-#CSS 
+### CSS 
 
 CSS code for the webpage was valiated on W3C CSS Validation Service. It has returned no errors.
 ![CSSvalidator](assets/images/cssimage.png)
+
+## User Story Testing
+| User Story | Result |Pass |
+| ---------- | ------ | --- |
+| As a user,I want to be informed and educated on the Island. | Page explains history and various things about the island. | Yes |
+| As a user, I want to see different activities and have local knowledge that's relevent to my enjoyment. | Page shows different activities. | Yes |
+| As a user, I want the instruction and information to be clear and easily understood. | Page shows information and is clear. | Yes |
+| As a user, I want to see different hotels and aspects of the Island. | Page shows different areas of the Island. | Yes |
+| As a user, I want to use my site on different devices. | Works on varoius devices. | Yes |
+| As a user, I want to be able to contact the creator for feedback or changes. | Yes through the comtact us page. | Yes |
+| As a user, I want the content to be accessible to anyone with diverse needs. | Yes tested with various methods. | Yes |
+
+
 
 # Deployment 
 
