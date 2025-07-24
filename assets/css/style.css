@@ -246,7 +246,7 @@ main {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    background-color: #F6D2CB;
+    background-color: #F3D78F;
 }
 
 #social-networks i {
@@ -258,7 +258,14 @@ main {
 .contactsfooter { 
     position: fixed;
     bottom: 0;
-    width: 100%
+    width: 100%;
+    background-color: #F3D78F;
+}
+
+.custom-carousel { 
+    height: 300px;
+    width: 50%;
+    margin: 0 auto;
 }
 
 
@@ -331,6 +338,7 @@ main {
         width: 100%;
         padding: 20px;
         text-align: center;
+        
     }
 
     .image1 { 
