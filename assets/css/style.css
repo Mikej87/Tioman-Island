@@ -19,6 +19,10 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+h1 { 
+    margin-top: 20px;
+}
+
  h2  {
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
@@ -39,9 +43,9 @@ body {
 header {
     
     color: #1b3b77;
-    position: sticky;
+    position: top;
     z-index: 99;
-    height: 100vh;
+    height: auto;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
     padding-bottom: 60px;
@@ -51,6 +55,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
+    object-fit: cover;
 }
 
 header a {
@@ -104,9 +109,7 @@ header a {
 #logo { 
     color: #F3D78F;
     font-weight: bold;
-    position: absolute;
-    top: 50%;
-    left: 20%;
+    position: center;
     text-align:center;
     transform: translate(-50%, -50%);
 }
@@ -159,40 +162,59 @@ header a {
 .gallery1 { 
     height: auto;
     width: 50%;
+    padding: 20px;
 }
 
 .gallery2 { 
-    height: auto;
+    height: 675px;
     width: 50%;
+    margin-left: 50%;
+    margin-top: -50%;
+    padding: 20px;
 }
 
 .gallery3 { 
     height: auto;
     width: 50%;
+     padding: 20px;
 }
 
 .gallery4 { 
     height: auto;
     width: 50%;
+    margin-left: 50%;
+    margin-top: -50%;
+     padding: 20px;
 }
 
 .gallery5 { 
     height: auto;
     width: 50%;
+     padding: 20px;
 }
 
 .gallery6 { 
     height: auto;
     width: 50%;
+     margin-left: 50%;
+    margin-top: -50%;
+     padding: 20px;
 }
 
 .gallery7 { 
     height: auto;
     width: 50%;
+     padding: 20px;
 }
 
 .email { 
     background-color: #1b3b77;
+}
+
+.name { 
+    color:#F3D78F;
+    background-color: #1b3b77;
+    font-weight: bold;
 }
 
 
@@ -291,10 +313,24 @@ main {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+  
+  body{ 
+    font-size: 1rem;
+  }
+  
     /* Header */
+   
+   header { 
+        display: block;
+        position: cover;
+        box-shadow: none;
+        width: 100%;
+        padding-right: 1rem;
+   }
+   
     nav {
         display: block;
-        position: relative;
+        position: top;
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
@@ -337,6 +373,10 @@ main {
         margin-top: 79px;
     }
 
+    #logo { 
+        position: relative;
+    }
+
     
     #cover-text {
         width: 300px;
@@ -369,49 +409,64 @@ main {
         
     }
 
-    .image2 { 
-    
-    height: auto;
-    width: 50%;
-
-}
-
-.image3 { 
-    
-    height: auto;
-    max-width: 50%;
-
-}
-
-.image4 { 
-    
-    height: auto;
-    max-width: 50%;
-    
-}
-
-.image5 { 
-    
-    height: auto;
-    max-width: 50%;
-    
-}
-
-.image6 { 
-    
-    height: auto;
-    max-width: 50%;
-    
-}
 
 .image7 { 
     height: auto;
     max-width: 50%;
 }
 
+.gallery { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .gallery1 { 
     height: auto;
-    max-width: 50%;
+    width: 50%;
+    padding: 20px;
+}
+
+.gallery2 { 
+    height: 675px;
+    width: 50%;
+    margin-left: 50%;
+    margin-top: -50%;
+    padding: 20px;
+}
+
+.gallery3 { 
+    height: auto;
+    width: 50%;
+     padding: 20px;
+}
+
+.gallery4 { 
+    height: auto;
+    width: 50%;
+    margin-left: 50%;
+    margin-top: -50%;
+     padding: 20px;
+}
+
+.gallery5 { 
+    height: auto;
+    width: 50%;
+     padding: 20px;
+}
+
+.gallery6 { 
+    height: auto;
+    width: 50%;
+     margin-left: 50%;
+    margin-top: -50%;
+     padding: 20px;
+}
+
+.gallery7 { 
+    height: auto;
+    width: 50%;
+     padding: 20px;
 }
 
 }
