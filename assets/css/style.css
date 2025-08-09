@@ -43,24 +43,32 @@ h1 {
 header {
     
     color: #1b3b77;
-    position: top;
+    position: relative;
     z-index: 99;
-    height: auto;
+    height: 600px;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
     padding-bottom: 60px;
-    display: flex;
+    display: block;
     align-items: baseline;
     background-image:url("/assets/images/sunbeach.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
-    object-fit: cover;
 }
 
 header a {
     text-decoration: none;
     color: inherit;
+}
+
+header h1 { 
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50% -50%);
+    margin: 0;
+    padding: 0;
 }
 
 #menu {
@@ -83,7 +91,7 @@ header a {
     width: 100%;
     left: 0;
     box-shadow: 0 2px 2px #3a3a3a;
-    display: block;
+    display: flex;
     top: 0;
     height:60px;
 }
@@ -99,7 +107,8 @@ header a {
 }
 
 #nav-toggle {
-    display: none;
+    display: flex;
+    all: unset;
 }
 
 .nav-toggle-label {
@@ -109,8 +118,8 @@ header a {
 #logo { 
     color: #F3D78F;
     font-weight: bold;
-    position: center;
-    text-align:center;
+    position: fixed;
+    text-align: center;
     transform: translate(-50%, -50%);
 }
 
@@ -127,6 +136,8 @@ header a {
 
 /*images*/
 .image1 { 
+    width: 600px;
+    height: 600px;
     
 }
 
@@ -242,7 +253,9 @@ p:nth-of-type(2) {
     background-color: #F3D7BF;
     font-weight: bold;
     font-size: 1rem;
-    max-width: 600px;
+    max-width: 800px;
+    flex-direction: row;
+    
     
 }
 
@@ -326,10 +339,11 @@ main {
         box-shadow: none;
         width: 100%;
         padding-right: 1rem;
+        size: auto;
    }
    
     nav {
-        display: block;
+        display: none;
         position: top;
         box-shadow: none;
         width: fit-content;
@@ -352,6 +366,7 @@ main {
         font-size: 280%;
         line-height: 75px;
         margin: 0 0.5rem;
+        
     } 
     
     .contactnav{ 
@@ -373,25 +388,34 @@ main {
         margin-top: 79px;
     }
 
-    #logo { 
-        position: relative;
-    }
 
     
     #cover-text {
         width: 300px;
         right: 50px;
+        flex-direction: row;
     }
 
     p { 
-        font-size: 1rem;
+        font-size: clamp (1rem, 2vw, 1.2rem);
         max-width: 800px;
+        flex-direction: row;
+        display: block;
+        writing-mode: horizontal-tb;
+        transform: none;
+        width: 100%;
+        text-align: center;
+        align-items: center;
         
     }
 
     p:nth-of-type(2) {
-        font-size: 1rem;
-        max-width: 800px
+        font-size: clamp(1rem, 2vw, 1.2rem);
+        max-width: 800px;
+        flex-direction: row;
+        display: flex;
+        writing-mode: horizontal-tb;
+        transform: none;
     }
 
     footer { 
@@ -402,10 +426,9 @@ main {
     }
 
     .image1 { 
-        width: 50%;
         height: auto;
-        max-width: 100%;
-        display: block;
+        max-width: 50%;
+        
         
     }
 
@@ -413,6 +436,7 @@ main {
 .image7 { 
     height: auto;
     max-width: 50%;
+    padding: 20px;
 }
 
 .gallery { 
@@ -473,7 +497,7 @@ main {
 
 .custom-carousel { 
     height: auto;
-    max-width: 100%
+    max-width: 50%
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
