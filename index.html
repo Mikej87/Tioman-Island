@@ -24,19 +24,14 @@
   </head>
 
   <body>
-    <header>
-      <div>
-      
-        <h1 id="logo">Welcome to Tioman Island!<br>
-        A Tropical paradise.</h1>
-      </a>
-      </div>
-      <div>
-      <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+    <header class="island">
+      <div class="island-inner">
+      <div class="navwrap">
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
       <label for="nav-toggle" class="nav-toggle-label">
         <i class="fa-solid fa-bars"></i>Menu
       </label>
-      <nav>
+      <nav class="nav">
         <ul id="menu">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
@@ -47,13 +42,18 @@
         </ul>
       </nav>
       </div>
+       <h1 id="logo">Welcome to Tioman Island!<br>
+        A Tropical paradise.</h1>
+       </div>
     </header>
     <!--Main Section-->
     <main>
-      <h2 id="about" style="text-align: center;">About</h2>
+      <section id="about" class="section-container">
+      <h2 class="section-title";>About</h2>
+      <div class="about"> <img class="about-image" src="assets/images/tioman-island.jpeg">
       <br>
-      <div style="display: flex; flex-direction: row; left: 0;"> <img class="about" src="assets/images/tioman-island.jpeg">
-      <div style="display: flex; flex-direction: column; margin-left: 20px; width:100% text-align: center;">
+      
+      <div class="about-text">
         <p>
         Welcome to the Tioman Island information webpage. Here you will find
         whats on offer on the Island and immurse yourself in an Island paradise.
@@ -78,18 +78,19 @@
       </p>
       </div>
       </div>
+      </section>
 
       <!--Jungle Section-->
 <br>
       <h2>Tiomans Jungle</h2>
 
-    
-      <div style="padding: 20px; top: -20px;">
-        <img style="width: 600px; height: 400px; position: relative; float: right; margin: 10px;"
-          class="image1"
+    <section class="section-container">
+      <div class="jungle-section jungle-reverse">
+        <img class="image1 image--square"
           src="assets/images/monkeyjungle.jpg"
           alt="Monkey in tree"
         />
+        <div class="jungle-text">
         <br>
          <p>
           Tiomans Jungles offer a variety of diverse hikes and beautiful
@@ -109,16 +110,18 @@
           wildlife. There are many lizards, snakes, insects and small animals on
           Tioman. Get in touch with us to help make it the best experience.
         </p>
+        </div>
       </div>
+    </section>
 <br>
 
 
-      <div style="padding-bottom: 100px;">
-        <section>
+      <div class="sealife section">
+        <section class="section-container">
           <!--Sealife Section-->
-          <h2 style="padding-top: 200px;">Tiomans Sealife</h2>
+          <h2 class="sealife">Tiomans Sealife</h2>
 
-          <p style="padding-top: 40px; margin-left:700px;">
+          <p class="sealife-text">
             Tioman is a Marine Park so there is plenty to do here in the water.
             There are a few different Scuba Diving Schools and Free Diving
             Schools on the Island. There are quite a few different dive spots
@@ -216,12 +219,12 @@
             <img
               src="assets/images/freediver.webp"
               class="d-block w-100"
-              alt="..."
+              alt="Woman freediving"
             />
             <div class="carousel-caption d-none d-md-block">
               <h5>Free Dive</h5>
               <p>
-                Some representative placeholder content for the third slide.
+                Free diving is a great way to explore the ocean!
               </p>
             </div>
           </div>
@@ -249,13 +252,15 @@
 
       <!--Accomodation Section-->
 
-      <section>
-        <h2 id="accomodation" style="padding-top: 100px;">Tioman Accommodation</h2>
+      <div class="section-container">
+      <section id="accommodation">
+        <h2 class="accomodation">Tioman Accommodation</h2>
         <img
-          class="image7"
+          class="image2"
           src="assets/images/hammockhotel.jpg"
           alt="hotel with hammocks"
-        /> <p style="padding-left: 40px; margin-top: 60px;">
+        /><div class="accomodation-text">
+         <p>  
           There are many hotels, hostels, beach huts and more on Tioman. This
           varies from luxury hotels to beach huts with a fan and a mattress. It
           depends what your looking for and what type of budget you have. One of
@@ -263,14 +268,18 @@
           chalets. Sometimes the waves come right up to your doorstep! So get in
           touch with us to make this experience amazing.
         </p>
+      </div>
+    </div>
       </section>
 
-      <section id="history">
-        <div id="cover-text">
+      <section id="history" class="section-container">
+        <div class="history">
+          <div id="cover-text">
           <h2>The History of Tioman</h2>
         </div>
-      </section>
-      <p style="margin-left: 700px; margin-top: -500px; display: row;">
+        </div>
+        <img class="image3" src="assets/images/tioman-TwinPeaks.jpg" alt="Two mountian peaks on the island">
+      <p>
         Once upon a time, a Chinese dragon princess was in love with a
         Singaporean prince. One day she decided to go to visit him. The powerful
         princess opened her large wings and started flying over the country,
@@ -299,45 +308,46 @@
         soul still living here, protecting everything and everyone living and
         traveling on the island.
       </p>
+      </section>
     </main>
-     <h2 style="padding: 200px" id="gallery">Gallery</h2>
+     <h2 id="gallery">Gallery</h2>
     <div class="gallery">
     <section>
       <img
-        class="gallery1"
+        class="gallery-item"
         src="assets/images/jungle-stream.jpg"
         alt="thick jungle rainforest"
       />
       <img
-        class="gallery2"
+        class="gallery-item"
         src="assets/images/bridgejungle.jpg"
         alt="people walking through jungle"
       />
       <img
-        class="gallery3"
+        class="gallery-item"
         src="assets/images/deckchairs.jpg"
         alt="Pier from sea into jungle"
       />
       <img
-        class="gallery4"
+        class="gallery-item"
         src="assets/images/loadsoffish.jpg"
         alt="loads of fish in the sea"
       />
-      <img class="gallery5" src="assets/images/monkeys.jpg" alt="Sunny beach" />
+      <img class="gallery-item" src="assets/images/monkeys.jpg" alt="Sunny beach" />
       <img
-        class="gallery6"
+        class="gallery-item"
         src="assets/images/beachhuts.jpg"
         alt="huts on beach"
       />
       <img
-        class="gallery8"
+        class="gallery-item"
         src="assets/images/sharkscuba.jpg"
         alt="Scuba diving with shark"
       />
     </section>
     </div>
 
-     <h2 style="padding: 20px;" id="contactus">Contact&nbsp;Us</h2>
+     <h2 id="contactus">Contact&nbsp;Us</h2>
       </a>
       <input type="checkbox" id="nav-toggle" name="nav-toggle" />
       <label for="nav-toggle" class="nav-toggle-label">
@@ -349,14 +359,14 @@
       action="https://mikej87.github.io/Tioman-Island/thankyou.html"
       method="get"
     >
-      <label class=" name" for="name">Name:</label><br />
+      <label class="name" for="name">Name:</label><br />
       <input type="text" id="name" value="John Smith" /><br /><br />
       <label class="email" for="email">Email:</label><br />
       <input type="email" id="email" value="Mikej87@gmail.com" /><br /><br />
       <input type="submit" value="Submit" />
     </form>
 
-    <footer class="contactsfooter">
+    <footer class="footer">
       <ul id="social-networks">
         <li>
           <a
@@ -405,51 +415,7 @@
       crossorigin="anonymous"
     ></script>
 
-    <!--Footer-->
-    <footer>
-      <ul id="social-networks">
-        <li>
-          <a
-            href="https://www.facebook.com/"
-            target="_blank"
-            rel="noopener"
-            aria-label="Visit our Facebook page (opens in a new tab)"
-          >
-            <i class="fa-brands fa-facebook"></i
-          ></a>
-        </li>
-        <li>
-          <a
-            href="https://www.twitter.com/"
-            target="_blank"
-            rel="noopener"
-            aria-label="Visit our Twitter page (opens in a new tab)"
-          >
-            <i class="fa-brands fa-twitter-square"></i
-          ></a>
-        </li>
-        <li>
-          <a
-            href="https://www.youtube.com/"
-            target="_blank"
-            rel="noopener"
-            aria-label="Visit our YouTube page (opens in a new tab)"
-          >
-            <i class="fa-brands fa-youtube-square"></i
-          ></a>
-        </li>
-        <li>
-          <a
-            href="https://www.instagram.com/"
-            target="_blank"
-            rel="noopener"
-            aria-label="Visit our Instagram page (opens in a new tab)"
-          >
-            <i class="fa-brands fa-instagram"></i
-          ></a>
-        </li>
-      </ul>
-    </footer>
+   
 
     <!--Font Awesome kit-->
     <script
@@ -458,3 +424,5 @@
     ></script>
   </body>
 </html>
+
+ 
