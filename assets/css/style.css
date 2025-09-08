@@ -1,382 +1,302 @@
-/* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap");
 
-/* Asterisk wildcard selector to override default styles added by the browser */
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-/* General styles */
 body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    background-color: #F3D7BF;
-    /* Generic project styles */
-    color: #3a3a3a;
-    font-family: 'Lato', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f3d7bf;
+  color: #3a3a3a;
+  font-family: "Lato", sans-serif;
 }
 
-h1 { 
-    margin: 0;
+h1 {
+  margin: 0;
 }
 
-h2 { 
-    font-weight: bold;
-    text-align:  center;
-    color:#1b3b77;
+.section {
+  padding: 4rem 0;
 }
 
-.section { 
-    padding: 4rem 0;
+.section-title {
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #244d88;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 2rem;
 }
 
-.section-container { 
-    font-family: "lato", sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #244d88;
-    font-size: 2rem;
-    text-align: center;
-    font-weight: bold;
-    margin-bottom: 2rem;
+.hero {
+  position: relative;
+  height: 600px;
+  width: 100%;
+  box-shadow: 0 2px 2px #3a3a3a;
+  background-image: url("../images/Sunbeach.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  place-items: start center;
 }
 
-.island { 
-    position: relative;
-    height: 600px;
-    width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
-    background-image: url(../images/Sunbeach.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: grid;
-    place-items: start center;
+.hero__inner {
+  width: 100%;
+  position: relative;
+  height: 100%;
 }
 
-.island-inner { 
-    width: 100%;
-    position: relative;
-    height: 100%;
+#logo {
+  color: #f3d78f;
+  font-weight: bold;
+  text-align: center;
+  font-size: clamp(1.5rem, 4vw, 3rem);
+  line-height: 1.2;
+  position: absolute;
+  top: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-#logo { 
-    color: #F3D7BF;
-    font-weight: bold;
-    text-align: center;
-    font-size: clamp(1.5rem, 4vw, 3rem);
-    line-height: 1.2;
-    position: absolute;
-    top: 2rem;
-    left: 30%;
-    transform: translateX(-50%);
-    top: 400px;
+.navwrap {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
 }
 
-.navwrap { 
-    position: absolute;
-    top: 1rem;
-    left: 1rem;
+#menu {
+  font-size: 110%;
+  letter-spacing: 2px;
+  list-style-type: none;
+  display: none;
+  gap: 1rem;
 }
 
-#menu { 
-    font-size: 110%;
-    letter-spacing: 2px;
-    list-style-type: none;
+#menu > li {
+  margin: 0;
+}
+
+#menu a {
+  text-decoration: none;
+  color: #1b3b77;
+}
+
+#menu a:hover {
+  border-bottom: 1px solid #3a3a3a;
+}
+
+.nav-toggle {
+  display: none;
+}
+
+.nav-toggle-label {
+  font-size: 1.5rem;
+  color: #1b3b77;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.nav {
+  display: block;
+}
+
+.nav-toggle:checked + .nav-toggle-label + .nav {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .nav-toggle-label {
     display: none;
-    gap: 1rem
-}
-
-#menu > li { 
-    margin: 0;
-}
-
-#menu a { 
-    text-decoration: none;
-    color: #1b3b77;
-}
-
-#menu a:hover { 
-    border-bottom: 1px solid #3a3a3a;
-}
-
-.nav-toggle { 
-    display: none;
-}
-
-.nav-toggle-label { 
-    font-size: 1.5rem;
-    color: #1b3b77;
-    cursor: pointer;
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-}
-
-.nav { 
-    display: block;
-}
-
-.nav-toggle:checked + .nav-toggle-label + .nav { 
-    display: block;
-}
-
-@media (min-width: 768px) { 
-
-    .nav-toggle-label { 
-        display: none;
-    }
-  
-
-    #menu { 
-        display: flex;
-    }
-}
-
-main { 
-    flex: 1 0 auto;
-}
-
-.about { 
-    display: grid;
-    grid-template-columns: 200px 1fr;
-    gap: 1.25rem;
-    align-items: start;
-    padding: 20px;
-}
-
-.about-image { 
-    width: 100%;
-    height: auto;
-    
-    
-}
-
-.about-text { 
+  }
+  #menu {
     display: flex;
-    gap: 1rem;
-    
-    
+  }
 }
 
-@media (min-width: 992px) { 
-    .about { 
-        grid-template-columns: 600px 1fr;
-    }
+main {
+  flex: 1 0 auto;
 }
 
-.jungle-section { 
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1.25rem;
-    align-items: start;
+.about {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+  align-items: start;
 }
 
-.jungle-reverse { 
-    grid-auto-flow: dense;
+.about__image {
+  width: 100%;
+  height: auto;
 }
 
-.jungle-text { 
-    display: grid;
-    gap: 1rem;
-}
-
-.accomodation { 
-    display: inline-block;
-    grid-template-columns: 1fr;
-    gap: 1.25rem;
-    align-items: start;
-    color:#1b3b77;
-    text-align: center;
-    padding: 40px;
-    
-}
-
-.accomodation-text { 
-    display: row;
-    gap: 1rem;
-    margin-left: 600px;
-    font-size: 1.5rem;
-    max-width: 600px;
-    margin: 0;
-}
-
-@media (min-width: 992px) { 
-    .jungle-section { 
-        grid-template-columns: 1fr 600px;
-    }
-    .jungle-reverse { 
-        grid-template-columns: 600px 1fr;
-    }
-    .accomodation { 
-        grid-template-columns: 1fr 600px;
-    }
-    .accomodation-text {
-        grid-template-columns: 1fr 600px;
-    }
-}
-
-.image1 { 
-    width: 100%;
-    height: auto;
-}
-
-.image--square { 
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
-}
-
-.image2 { 
-    width:100%;
-    height: auto;
-    position: left;
-    padding: 60px;
-}
-
-.image3 { 
-     width:100%;
-    height: 400px;
-    position: center;
-    padding: 60px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-p { 
-    color: #1b3b77;
-    background-color: #F3D7BF;
-    font-size: 1rem;
-    font-style: italic;
-    max-width: 600px;
-    opacity: 0.99;
-    font-weight: bold;
-    margin: 0 auto;
-    align-items: center;
-}
-
-.carousel { 
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-.carousel .carousel-item img { 
-    width: 100%;
-    height: 600px;
-    object-fit: cover;
-}
-
-.history { 
-    width: 100%;
-    height: 600px;
-    background-image: url(../assets/images/tioman-TwinPeaks.jpg) no-repeat center center/cover;
-    position: relative;
-    margin: 3rem auto 1.5rem;
-    max-width: 500px;
-}
-
-#cover-text { 
-    background-color: #F3D7BF;
-    font-size: 150%;
-    position: absolute;
-    bottom: 30px;
-    width: 80%;
-    min-height: 200px;
-    padding: 40px 10px 10px;
-    left: 50%;
-    transform: translateX(-50%)
-}
-
-#cover-text > h2 { 
-    color:#1b3b77;
-    margin: 0;
-}
-
-.gallery { 
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    padding: 20px 0 20px;
-}
-
-.gallery-item { 
-    width: 100%;
-    height: auto;
-}
-
-#gallery {
-    text-align: center;
+.about__text {
+  display: grid;
+  gap: 1rem;
 }
 
 @media (min-width: 992px) {
-    .gallery { 
-        grid-template-columns: repeat(3, 1fr  );
-    }
+  .about {
+    grid-template-columns: 600px 1fr;
+  }
 }
 
-#contactus { 
-    text-align: center;
-    color:#1b3b77;
+.split {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+  align-items: start;
 }
 
-.form-label { 
-    color: #244d88;
-    text-decoration: underline;
-    display: block;
-    margin-top: 1rem;
+.split--reverse {
+  grid-auto-flow: dense;
 }
 
-.name { 
-    color: #F3D7BF;
-    background-color: #1b3b77;
-    padding: 0.25rem 0.5rem;
-    display: inline-block;
-    font-weight: bold;
+.split__text {
+  display: grid;
+  gap: 1rem;
 }
 
-.email { 
-    color: #F3D7BF;
-    background-color: #1b3b77;
-    font-weight: bold;
-    padding: 0.25rem 0.5rem;
-    display: inline-block;
+@media (min-width: 992px) {
+  .split {
+    grid-template-columns: 1fr 600px;
+  }
+  .split--reverse {
+    grid-template-columns: 600px 1fr;
+  }
 }
 
-.contact-form { 
-    max-width: 480px;
-    margin: 0 auto;
-    display: grid;
-    gap: 0.75rem;
+.image {
+  width: 100%;
+  height: auto;
 }
 
-input[type="checkbox"] {
-    display: none;
+.image--square {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
 }
 
-#social-networks { 
-    text-align: center;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-    background-color: #F3D7BF;
+p {
+  color: #1b3b77;
+  background-color: #f3d7bf;
+  font-size: 1rem;
+  font-style: italic;
+  max-width: 800px;
+  opacity: 0.99;
+  font-weight: bold;
+  margin: 0 auto;
 }
 
-#social-networks i { 
-    font-size: 160%;
-    padding: 5%;
-    color: #3a3a3a;
+.custom-carousel {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
-.footer { 
-    width: 100%;
-    margin-top: 2rem;
-    border: 1px solid #1b3b77;
-    bottom: 0;
+.custom-carousel .carousel-item img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
 }
 
+.history-hero {
+  width: 100%;
+  height: 600px;
+  background: url("../images/tioman-TwinPeaks.jpg") no-repeat center
+    center/cover;
+  position: relative;
+  margin: 3rem auto 1.5rem;
+  max-width: 600px;
+}
+
+#cover-text {
+  background-color: #f3d7bf;
+  font-size: 150%;
+  position: absolute;
+  bottom: 30px;
+  width: 80%;
+  min-height: 200px;
+  padding: 40px 10px 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#cover-text > h2 {
+  color: #1b3b77;
+  margin: 0;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.gallery__item {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 992px) {
+  .gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.form-label {
+  color: #244d88;
+  text-decoration: underline;
+  display: block;
+  margin-top: 1rem;
+}
+
+.name {
+  color: #f3d78f;
+  background-color: #1b3b77;
+  padding: 0.25rem 0.5rem;
+  display: inline-block;
+}
+
+.email {
+  color: #f3d7bf;
+  background-color: #1b3b77;
+  font-weight: bold;
+  padding: 0.25rem 0.5rem;
+  display: inline-block;
+}
+
+.contact-form {
+  max-width: 480px;
+  margin: 0 auto;
+  display: grid;
+  gap: 0.75rem;
+}
+
+#social-networks {
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  background-color: #f3d78f;
+}
+
+#social-networks i {
+  font-size: 160%;
+  padding: 5%;
+  color: #3a3a3a;
+}
+
+.site-footer {
+  width: 100%;
+  margin-top: 2rem;
+}
