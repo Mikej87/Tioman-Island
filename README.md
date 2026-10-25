@@ -2,6 +2,8 @@
 
 **Tioman Island promotion webpage**
 
+A responsive multi-page web platform designed to map the geographical features, rain-forest ecosystems, and marine park parameters of Pulau Tioman, Malaysia.
+
 This is a promotion webpage for Tioman Island and all the fantastic things you can do there. On this site you can view the beautiful coral reefs, hotels and see what the Island has to offer.
 The page has tips and guides you through the Island so you can be prepared when you visit. Along with the amazing sea life and beaches, Tioman has an amazing diverse jungle to explore. The Legend goes that Tioman 
 was created when a dragon lay down and died after loosing her partner. This is what makes Tiomans peaks and Island. In the 1600's pirates ravaged the Island for anything they could, including the local people! The 
@@ -13,6 +15,17 @@ So step into a jungle island adventure and visit Tioman Island. Check out our co
 
 
 ### Contents
+
+## Value Provision & Architectural Goals
+The portal offers a unified information repository for eco-tourists. It breaks down into three distinct semantic files to optimize user tracking workflows:
+1. **Core Portal Terminal (index.html):** Outlines basic island data and structural highlight feature sets.
+2. **Ecosystem Registry (jungle.html):** Formats trek routes via verified high-density structured custom HTML5 tables.
+3. **Marine Registry Terminal (sealife.html):** Implements automated carousel components alongside standard booking inputs.
+
+## Third-Party Libraries & Attribution Code Logs
+- **Bootstrap (v5.3.8 Framework Package):** Utilized for structural table layout styling resets and JavaScript event listeners controlling slider animations.
+- **FontAwesome Vector Assets (v6.4.0 Hosted CDN):** Provides vector icons for callouts and navigation badges.
+- **Google Fonts Engine Database:** Hosts typography variables for 'Lato' (body tracking readable content) and 'Oswald' (headings display elements).
 
 ### User Goals
 
@@ -199,7 +212,8 @@ CSS code for the webpage was valiated on W3C CSS Validation Service. It has retu
 | As a user, I want to be able to contact the creator for feedback or changes. | Yes through the comtact us page. | Yes |
 | As a user, I want the content to be accessible to anyone with diverse needs. | Yes tested with various methods. | Yes |
 
-
+## Deployment Framework Steps
+This repository is configured for immediate hosting services via GitHub Pages.
 
 # Deployment 
 
